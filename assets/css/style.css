@@ -94,7 +94,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  top: 50px;
+  /* top: 50px; */
   height: 70px;
   z-index: 997;
   transition: all 0.5s;
@@ -2290,6 +2290,10 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+}
+
+.boldTextFooter {
+  font-weight: 600;
 }
 
 #footer .social-links a:hover {
